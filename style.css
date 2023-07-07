@@ -1,0 +1,118 @@
+body {
+    font-family: "Roboto Slab", serif;
+    background-color: peachpuff;
+  }
+  h1 {
+    text-decoration: underline;
+    margin-top: 10%;
+    margin-left: 40%;
+    font-family: "Roboto Slab", serif;
+  }
+  
+  .started {
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    background:black;
+    padding: 10px;
+    border-radius:205px;
+  }
+  
+  .completed {
+    color: rgb(60, 94, 10);
+    font-weight: bold;
+    background: rgb(113, 15, 177);
+    padding: 25px;
+    border-radius: 15px;
+  }
+  
+  .container {
+    background-color:#0d0d0e;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    padding: 50px;
+    margin: 70px auto;
+    max-width: 900px;
+  }
+  
+  .btn-primary {
+    background-color: #0c0c0c;
+    border-color: #c8990d;
+  }
+  
+  .btn-primary:hover {
+    background-color: #9c0a81;
+    border-color: #0062cc;
+  }
+  
+  .btn-danger {
+    background-color: #3591dc;
+    border-color: #dc3545;
+  }
+  
+  .btn-danger:hover {
+    background-color: #5bad7c;
+    border-color: #bd2130;
+  }
+  
+  .table {
+    border-collapse: collapse;
+    width: 100%;
+  }
+  
+  .table th,
+  .table td {
+    border: 10px solid #ddd;
+    padding: 8px;
+    text-align: centre;
+  }
+  
+  .table th {
+    background-color: #f2f2f2;
+  }
+  
+  .modal-content {
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .modal-header {
+    background-color: #f7f7f7;
+    border-radius: 10px 10px 0 0;
+  }
+  
+  .modal-title {
+    font-size: 20px;
+    font-weight: bold;
+    margin: 0;
+  }
+  
+  .form-group {
+    margin-bottom: 20px;
+  }
+  
+  .form-group label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 5px;
+  }
+  
+  .form-control {
+    border-radius: 4px;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+    font-size: 16px;
+    padding: 10px;
+    width: 100%;
+  }
+  
+  .form-control:focus {
+    border-color: #4b123b;
+    box-shadow: 0 0 0 0.2rem rgba(0, 123, 255, 0.25);
+  }
+  
+  .caption {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 20px;
+    text-align: center;
+  }
